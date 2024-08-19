@@ -1,4 +1,5 @@
 import { makeExecutableSchema } from '@graphql-tools/schema';
+import userResolvers from 'resolvers/userResolvers';
 
 
 const typeDefs = `
@@ -17,5 +18,6 @@ const typeDefs = `
 `;
 
 export const schema = makeExecutableSchema({
-  typeDefs
+  typeDefs,
+  resolvers:userResolvers
 });
