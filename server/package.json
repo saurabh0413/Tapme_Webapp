@@ -1,0 +1,22 @@
+{
+  "name": "tapme_webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^10.0.6",
+    "@supabase/supabase-js": "^2.45.1",
+    "@types/node": "^22.4.1",
+    "dotenv": "^16.4.5",
+    "graphql-yoga": "^5.7.0",
+    "supabase": "^1.190.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
